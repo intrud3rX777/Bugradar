@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import json
 import math
+from pathlib import Path
 from urllib.parse import urlencode, urljoin
 
 from .base import (
@@ -22,6 +24,7 @@ CATEGORIES = ("bug_bounty", "vdp")
 SORT_BY = "promoted"
 SORT_DIRECTION = "desc"
 DETAIL_WORKERS = 8
+PREVIOUS_PROGRAMS_FILE = Path(__file__).resolve().parents[2] / "data" / "history" / "programs.prev.json"
 
 
 def _as_bool(value: object) -> bool:
@@ -94,6 +97,94 @@ def _scope_reason(group_description: str, target_item: dict[str, object]) -> str
         or group_description
         or "Out of scope on Bugcrowd."
     )
+
+
+def _is_placeholder_scope(scope: dict[str, list[dict[str, str]]]) -> bool:
+    in_items = scope.get("in", [])
+    out_items = scope.get("out", [])
+    if out_items:
+        return False
+    if len(in_items) != 1:
+        return False
+    target = clean_text(in_items[0].get("target")).lower()
+    return target == "public-program-scope"
+
+
+def _to_collector_scope(previous_scope: object) -> dict[str, list[dict[str, str]]] | None:
+    if not isinstance(previous_scope, dict):
+        return None
+
+    raw_in = previous_scope.get("in", [])
+    raw_out = previous_scope.get("out", [])
+    if not isinstance(raw_in, list) or not isinstance(raw_out, list):
+        return None
+
+    in_items: list[dict[str, str]] = []
+    for item in raw_in:
+        if not isinstance(item, dict):
+            continue
+        target = clean_text(item.get("target"))
+        if not target:
+            continue
+        in_items.append(
+            {
+                "target": target,
+                "type": clean_text(item.get("type")) or "other",
+                "asset_type": clean_text(item.get("asset_type") or item.get("assetType")) or "web",
+                "auth_required": _as_bool(item.get("auth_required", item.get("authRequired", False))),
+                "notes": clean_text(item.get("notes")),
+            }
+        )
+
+    out_items: list[dict[str, str]] = []
+    for item in raw_out:
+        if not isinstance(item, dict):
+            continue
+        target = clean_text(item.get("target"))
+        if not target:
+            continue
+        out_items.append(
+            {
+                "target": target,
+                "reason": clean_text(item.get("reason")) or "Out of scope",
+            }
+        )
+
+    scope = {"in": dedupe_scope_items(in_items), "out": dedupe_out_scope_items(out_items)}
+    if not scope["in"] and not scope["out"]:
+        return None
+    if _is_placeholder_scope(scope):
+        return None
+    return scope
+
+
+def _load_previous_scope_by_source() -> dict[str, dict[str, list[dict[str, str]]]]:
+    if not PREVIOUS_PROGRAMS_FILE.exists():
+        return {}
+
+    try:
+        payload = json.loads(PREVIOUS_PROGRAMS_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+    programs = payload.get("programs", [])
+    if not isinstance(programs, list):
+        return {}
+
+    scope_map: dict[str, dict[str, list[dict[str, str]]]] = {}
+    for program in programs:
+        if not isinstance(program, dict):
+            continue
+        if clean_text(program.get("platform")).lower() != "bugcrowd":
+            continue
+        source_id = clean_text(program.get("sourceId") or program.get("source_id"))
+        if not source_id:
+            continue
+        converted_scope = _to_collector_scope(program.get("scope"))
+        if converted_scope:
+            scope_map[source_id] = converted_scope
+
+    return scope_map
 
 
 def _fetch_page(category: str, page: int) -> tuple[list[dict], int]:
@@ -349,6 +440,7 @@ def collect() -> list[RawProgram]:
                     }
                 )
 
+        previous_scope_by_source = _load_previous_scope_by_source()
         scope_by_source: dict[str, dict[str, list[dict[str, str]]]] = {}
         with ThreadPoolExecutor(max_workers=DETAIL_WORKERS) as executor:
             futures = {
@@ -365,8 +457,14 @@ def collect() -> list[RawProgram]:
                     scope_by_source[source_id] = scope
 
         records: list[RawProgram] = []
+        history_fallback_count = 0
         for record in staged_records:
             source_id = str(record["source_id"])
+            resolved_scope = scope_by_source.get(source_id)
+            if not resolved_scope:
+                resolved_scope = previous_scope_by_source.get(source_id)
+                if resolved_scope:
+                    history_fallback_count += 1
             records.append(
                 build_program(
                     platform="Bugcrowd",
@@ -381,8 +479,13 @@ def collect() -> list[RawProgram]:
                     created_at=None,
                     updated_at=None,
                     metadata=record["metadata"] if isinstance(record["metadata"], dict) else None,
-                    scope=scope_by_source.get(source_id),
+                    scope=resolved_scope,
                 )
+            )
+
+        if history_fallback_count:
+            print(
+                f"[collector:bugcrowd] reused previous scope for {history_fallback_count} programs"
             )
 
         if records:
