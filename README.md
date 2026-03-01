@@ -68,7 +68,7 @@ npm run build
 - Triggers:
   - Push to `main`
   - Manual run (`workflow_dispatch`)
-  - Scheduled refresh every 30 minutes
+  - Scheduled refresh every 24 hours (00:00 UTC)
 - Deploy target: `dist/`
 
 After first push, set repository Pages source to **GitHub Actions** in:

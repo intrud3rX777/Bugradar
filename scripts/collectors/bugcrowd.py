@@ -11,6 +11,7 @@ from .base import (
     clean_text,
     dedupe_out_scope_items,
     dedupe_scope_items,
+    extract_targets_from_text,
     fetch_json,
     load_seed_programs,
     parse_money_range,
@@ -21,6 +22,78 @@ CATEGORIES = ("bug_bounty", "vdp")
 SORT_BY = "promoted"
 SORT_DIRECTION = "desc"
 DETAIL_WORKERS = 8
+
+
+def _as_bool(value: object) -> bool:
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, (int, float)):
+        return value != 0
+    if isinstance(value, str):
+        lowered = value.strip().lower()
+        if lowered in {"1", "true", "yes", "y"}:
+            return True
+        if lowered in {"0", "false", "no", "n"}:
+            return False
+    return bool(value)
+
+
+def _extract_tag_names(value: object) -> list[str]:
+    if value is None:
+        return []
+    if isinstance(value, str):
+        cleaned = clean_text(value)
+        if not cleaned:
+            return []
+        # Supports values like "targets, brief"
+        return [part.strip().lower() for part in cleaned.split(",") if part.strip()]
+
+    names: list[str] = []
+    if isinstance(value, list):
+        for item in value:
+            names.extend(_extract_tag_names(item))
+        return names
+    if isinstance(value, dict):
+        for key in ("name", "label", "slug", "id", "value"):
+            candidate = clean_text(value.get(key))
+            if candidate:
+                names.append(candidate.lower())
+        return names
+    return []
+
+
+def _extract_scope_groups(payload: dict[str, object]) -> list[dict[str, object]]:
+    if not isinstance(payload, dict):
+        return []
+    candidate_containers = [payload]
+    data = payload.get("data")
+    if isinstance(data, dict):
+        candidate_containers.append(data)
+
+    for container in candidate_containers:
+        for key in ("scope", "targetGroups", "target_groups", "targets", "target_groups_attributes"):
+            groups = container.get(key)
+            if isinstance(groups, list):
+                return [group for group in groups if isinstance(group, dict)]
+    return []
+
+
+def _extract_targets(group: dict[str, object]) -> list[dict[str, object]]:
+    for key in ("targets", "assets", "targetAssets", "entries", "scopeTargets"):
+        raw_targets = group.get(key)
+        if isinstance(raw_targets, list):
+            return [target for target in raw_targets if isinstance(target, dict)]
+    return []
+
+
+def _scope_reason(group_description: str, target_item: dict[str, object]) -> str:
+    return (
+        clean_text(target_item.get("reason"))
+        or clean_text(target_item.get("outOfScopeReason"))
+        or clean_text(target_item.get("out_scope_reason"))
+        or group_description
+        or "Out of scope on Bugcrowd."
+    )
 
 
 def _fetch_page(category: str, page: int) -> tuple[list[dict], int]:
@@ -71,41 +144,48 @@ def _safe_int(value: object) -> int | None:
 
 
 def _parse_scope_from_changelog(payload: dict[str, object]) -> dict[str, list[dict[str, str]]]:
-    data = payload.get("data", {}) if isinstance(payload, dict) else {}
-    scope_groups = data.get("scope", []) if isinstance(data, dict) else []
-    if not isinstance(scope_groups, list):
+    scope_groups = _extract_scope_groups(payload)
+    if not scope_groups:
         return {"in": [], "out": []}
 
     in_scope_items: list[dict[str, str]] = []
     out_scope_items: list[dict[str, str]] = []
 
     for group in scope_groups:
-        if not isinstance(group, dict):
-            continue
-        in_scope = bool(group.get("inScope"))
+        in_scope = _as_bool(
+            group.get("inScope", group.get("in_scope", group.get("isInScope", group.get("is_in_scope"))))
+        )
         group_name = clean_text(group.get("name"))
         group_description = clean_text(group.get("description") or group.get("descriptionHtml"))
         reward_range = clean_text(group.get("rewardRange"))
         group_notes = " | ".join(value for value in [group_name, reward_range, group_description] if value)
 
-        targets = group.get("targets", [])
-        if not isinstance(targets, list):
+        targets = _extract_targets(group)
+        if not targets and group_description:
+            # Some payloads expose only descriptive text; try extracting host/path-like targets.
+            inferred_targets = extract_targets_from_text(group_description)
+            targets = [{"uri": inferred_target} for inferred_target in inferred_targets]
+        if not targets:
             continue
 
         for target_item in targets:
-            if not isinstance(target_item, dict):
-                continue
-            target_value = clean_text(target_item.get("uri")) or clean_text(target_item.get("name"))
+            target_value = (
+                clean_text(target_item.get("uri"))
+                or clean_text(target_item.get("target"))
+                or clean_text(target_item.get("name"))
+                or clean_text(target_item.get("value"))
+            )
             if not target_value:
                 continue
 
-            category = clean_text(target_item.get("category"))
+            category = (
+                clean_text(target_item.get("category"))
+                or clean_text(target_item.get("type"))
+                or clean_text(target_item.get("targetType"))
+                or clean_text(target_item.get("assetType"))
+            )
             description = clean_text(target_item.get("description"))
-            tags = target_item.get("tags") or []
-            tag_names = []
-            if isinstance(tags, list):
-                tag_names = [clean_text(tag.get("name")) for tag in tags if isinstance(tag, dict)]
-                tag_names = [tag_name for tag_name in tag_names if tag_name]
+            tag_names = _extract_tag_names(target_item.get("tags"))
 
             scope_notes = " | ".join(
                 value for value in [group_notes, description, ", ".join(tag_names)] if value
@@ -123,7 +203,7 @@ def _parse_scope_from_changelog(payload: dict[str, object]) -> dict[str, list[di
             if in_scope:
                 in_scope_items.append(scope_item)
             else:
-                reason = clean_text(group_description) or "Out of scope on Bugcrowd."
+                reason = _scope_reason(group_description, target_item)
                 out_scope_items.append({"target": target_value, "reason": reason})
 
     return {
@@ -145,33 +225,54 @@ def _fetch_scope(source_id: str) -> dict[str, list[dict[str, str]]] | None:
     if not isinstance(changelogs, list) or not changelogs:
         return None
 
-    preferred = None
+    candidates: list[tuple[int, str]] = []
     for item in changelogs:
         if not isinstance(item, dict):
             continue
-        tags = clean_text(item.get("tags")).lower()
-        if tags in {"targets", "brief"}:
-            preferred = item
+        changelog_id = clean_text(item.get("id"))
+        if not changelog_id:
+            continue
+        tags = set(_extract_tag_names(item.get("tags")))
+        title = clean_text(item.get("title")).lower()
+
+        score = 0
+        if tags & {"targets", "scope"}:
+            score += 4
+        if "target" in title or "scope" in title:
+            score += 2
+        if tags & {"brief", "policy"}:
+            score += 1
+        candidates.append((score, changelog_id))
+
+    if not candidates:
+        return None
+
+    # Prefer entries that explicitly mention scope/targets, but keep fallback candidates.
+    candidates.sort(key=lambda entry: entry[0], reverse=True)
+    in_scope_items: list[dict[str, str]] = []
+    out_scope_items: list[dict[str, str]] = []
+    seen_ids: set[str] = set()
+    for _, changelog_id in candidates[:10]:
+        if changelog_id in seen_ids:
+            continue
+        seen_ids.add(changelog_id)
+        try:
+            detail_payload = fetch_json(_detail_changelog_json_url(source_id, changelog_id), timeout=45)
+        except Exception:
+            continue
+
+        parsed_scope = _parse_scope_from_changelog(detail_payload if isinstance(detail_payload, dict) else {})
+        if parsed_scope["in"]:
+            in_scope_items.extend(parsed_scope["in"])
+        if parsed_scope["out"]:
+            out_scope_items.extend(parsed_scope["out"])
+        if in_scope_items and out_scope_items:
             break
-    if preferred is None:
-        first_item = changelogs[0]
-        if isinstance(first_item, dict):
-            preferred = first_item
-    if not preferred:
-        return None
 
-    changelog_id = clean_text(preferred.get("id"))
-    if not changelog_id:
-        return None
-
-    try:
-        detail_payload = fetch_json(_detail_changelog_json_url(source_id, changelog_id), timeout=45)
-    except Exception:
-        return None
-
-    parsed_scope = _parse_scope_from_changelog(detail_payload if isinstance(detail_payload, dict) else {})
-    if parsed_scope["in"] or parsed_scope["out"]:
-        return parsed_scope
+    deduped_in = dedupe_scope_items(in_scope_items)
+    deduped_out = dedupe_out_scope_items(out_scope_items)
+    if deduped_in or deduped_out:
+        return {"in": deduped_in, "out": deduped_out}
     return None
 
 
