@@ -1,0 +1,64 @@
+﻿{
+  "platform": "Intigriti",
+  "programs": [
+    {
+      "source_id": "intigriti-zoho",
+      "name": "Zoho",
+      "description": "Business SaaS ecosystem with broad SaaS and API surfaces.",
+      "url": "https://www.intigriti.com/programs/zoho",
+      "bounty": { "type": "cash", "min": 250, "max": 20000, "currency": "USD" },
+      "scope": {
+        "in": [
+          { "target": "*.zoho.com", "type": "domain", "asset_type": "web" },
+          { "target": "api.zoho.com", "type": "api", "asset_type": "api" },
+          { "target": "accounts.zoho.in/oauth/v2/auth", "type": "auth", "asset_type": "web", "auth_required": true },
+          { "target": "workdrive.zoho.com", "type": "cloud", "asset_type": "cloud" }
+        ],
+        "out": [
+          { "target": "status.zoho.com", "reason": "Status systems excluded" }
+        ]
+      },
+      "hq_country": "IN",
+      "metadata": { "regions": ["india", "global"], "recent_scope_expansion": true },
+      "rules": [
+        "No testing against customer tenants without permission",
+        "Submit impact and reproducibility details"
+      ],
+      "exclusions": [
+        "Automated scanner-only reports",
+        "Clickjacking without sensitive action impact"
+      ],
+      "created_at": "2025-11-11T06:20:00Z",
+      "updated_at": "2026-02-04T09:00:00Z"
+    },
+    {
+      "source_id": "intigriti-smartgrid",
+      "name": "SmartGrid Cloud",
+      "description": "European industrial IoT and cloud operations platform.",
+      "url": "https://www.intigriti.com/programs/smartgrid",
+      "bounty": { "type": "points", "min": 0, "max": 0, "currency": "POINTS" },
+      "scope": {
+        "in": [
+          { "target": "*.smartgrid.cloud", "type": "domain", "asset_type": "cloud" },
+          { "target": "api.smartgrid.cloud/v1", "type": "url", "asset_type": "api" },
+          { "target": "iot-gateway.smartgrid.cloud", "type": "iot", "asset_type": "iot" }
+        ],
+        "out": [
+          { "target": "demo.smartgrid.cloud", "reason": "Demo sandbox excluded" }
+        ]
+      },
+      "hq_country": "BE",
+      "metadata": { "regions": ["eu"], "recent_scope_expansion": false },
+      "rules": [
+        "No disruption to production IoT traffic",
+        "Coordinate testing windows for load-heavy techniques"
+      ],
+      "exclusions": [
+        "Physical hardware attacks",
+        "Phishing and social engineering"
+      ],
+      "created_at": "2025-09-03T13:15:00Z",
+      "updated_at": "2025-12-15T10:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+﻿{
+  "platform": "HackerOne",
+  "programs": [
+    {
+      "source_id": "h1-shopify",
+      "name": "Shopify",
+      "description": "Ecommerce platform with broad attack surface across merchant tools and APIs.",
+      "url": "https://hackerone.com/shopify",
+      "bounty": { "type": "cash", "min": 500, "max": 25000, "currency": "USD" },
+      "scope": {
+        "in": [
+          { "target": "*.shopify.com", "type": "domain", "asset_type": "web" },
+          { "target": "api.shopify.com", "type": "api", "asset_type": "api" },
+          { "target": "partners.shopify.com/oauth/callback", "type": "url", "asset_type": "web", "auth_required": true }
+        ],
+        "out": [
+          { "target": "status.shopify.com", "reason": "Informational status pages are out of scope" }
+        ]
+      },
+      "hq_country": "CA",
+      "metadata": { "regions": ["global"], "recent_scope_expansion": true },
+      "rules": [
+        "Provide reproducible PoC steps",
+        "Avoid automated traffic spikes"
+      ],
+      "exclusions": [
+        "Social engineering",
+        "Physical attacks"
+      ],
+      "created_at": "2025-10-02T12:00:00Z",
+      "updated_at": "2026-01-30T10:00:00Z"
+    },
+    {
+      "source_id": "h1-flipkart",
+      "name": "Flipkart",
+      "description": "Indian ecommerce program focused on web, mobile, and API surfaces.",
+      "url": "https://hackerone.com/flipkart",
+      "bounty": { "type": "cash", "min": 150, "max": 12000, "currency": "USD" },
+      "scope": {
+        "in": [
+          { "target": "*.flipkart.com", "type": "domain", "asset_type": "web" },
+          { "target": "api.flipkart.com", "type": "api", "asset_type": "api" },
+          { "target": "seller.flipkart.in", "type": "domain", "asset_type": "web" },
+          { "target": "flipkart-mobile-app", "type": "mobile", "asset_type": "mobile", "auth_required": true }
+        ],
+        "out": [
+          { "target": "careers.flipkart.com", "reason": "Recruitment systems excluded" }
+        ]
+      },
+      "hq_country": "IN",
+      "metadata": { "regions": ["india", "apac"], "recent_scope_expansion": false },
+      "rules": [
+        "Use test accounts only",
+        "Include impact explanation"
+      ],
+      "exclusions": [
+        "Brute force reports",
+        "DoS and DDoS"
+      ],
+      "created_at": "2025-12-05T09:00:00Z",
+      "updated_at": "2026-02-05T15:30:00Z"
+    }
+  ]
+}

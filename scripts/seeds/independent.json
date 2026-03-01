@@ -1,0 +1,89 @@
+{
+  "platform": "Independent",
+  "programs": [
+    {
+      "source_id": "securitytxt-githubcom",
+      "name": "github.com",
+      "description": "Independent disclosure policy discovered via security.txt listing.",
+      "url": "https://github.com/.well-known/security.txt",
+      "bounty": {
+        "type": "none",
+        "min": 0,
+        "max": 0,
+        "currency": "USD"
+      },
+      "scope": {
+        "in": [
+          {
+            "target": "github.com",
+            "type": "domain",
+            "asset_type": "web",
+            "notes": "Independent security.txt policy."
+          }
+        ],
+        "out": []
+      },
+      "hq_country": "Unknown",
+      "metadata": {
+        "regions": [
+          "global"
+        ],
+        "recent_scope_expansion": false,
+        "source": "seed",
+        "hosting": "independent",
+        "program_kind": "VDP"
+      },
+      "rules": [
+        "Follow policy terms and responsible disclosure."
+      ],
+      "exclusions": [
+        "Social engineering",
+        "DoS"
+      ],
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    },
+    {
+      "source_id": "securitytxt-gitlabcom",
+      "name": "gitlab.com",
+      "description": "Independent disclosure policy discovered via security.txt listing.",
+      "url": "https://gitlab.com/.well-known/security.txt",
+      "bounty": {
+        "type": "none",
+        "min": 0,
+        "max": 0,
+        "currency": "USD"
+      },
+      "scope": {
+        "in": [
+          {
+            "target": "gitlab.com",
+            "type": "domain",
+            "asset_type": "web",
+            "notes": "Independent security.txt policy."
+          }
+        ],
+        "out": []
+      },
+      "hq_country": "Unknown",
+      "metadata": {
+        "regions": [
+          "global"
+        ],
+        "recent_scope_expansion": false,
+        "source": "seed",
+        "hosting": "independent",
+        "program_kind": "VDP"
+      },
+      "rules": [
+        "Follow policy terms and responsible disclosure."
+      ],
+      "exclusions": [
+        "Social engineering",
+        "DoS"
+      ],
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  ]
+}

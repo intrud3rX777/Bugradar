@@ -1,0 +1,3258 @@
+{
+  "generatedAt": "2026-03-01T05:22:23Z",
+  "totalEvents": 1208,
+  "items": [
+    {
+      "id": "submission-volume-hackerone-ion-81530-406",
+      "timestamp": "2026-03-01T05:23:24Z",
+      "type": "high_submission_volume",
+      "platform": "HackerOne",
+      "programId": "hackerone-ion-81530",
+      "programName": "ION Group",
+      "programUrl": "https://hackerone.com/ion",
+      "summary": "High submission volume signal (406 total submissions)."
+    },
+    {
+      "id": "submission-volume-hackerone-disclosure-assistance-16235-508",
+      "timestamp": "2026-03-01T05:23:24Z",
+      "type": "high_submission_volume",
+      "platform": "HackerOne",
+      "programId": "hackerone-disclosure-assistance-16235",
+      "programName": "Disclosure Assistance",
+      "programUrl": "https://hackerone.com/disclosure-assistance",
+      "summary": "High submission volume signal (508 total submissions)."
+    },
+    {
+      "id": "submission-volume-hackerone-gm-7205-1427",
+      "timestamp": "2026-03-01T05:23:24Z",
+      "type": "high_submission_volume",
+      "platform": "HackerOne",
+      "programId": "hackerone-gm-7205",
+      "programName": "General Motors",
+      "programUrl": "https://hackerone.com/gm",
+      "summary": "High submission volume signal (1427 total submissions)."
+    },
+    {
+      "id": "submission-volume-hackerone-khanacademy-134-307",
+      "timestamp": "2026-03-01T05:23:24Z",
+      "type": "high_submission_volume",
+      "platform": "HackerOne",
+      "programId": "hackerone-khanacademy-134",
+      "programName": "Khan Academy",
+      "programUrl": "https://hackerone.com/khanacademy",
+      "summary": "High submission volume signal (307 total submissions)."
+    },
+    {
+      "id": "submission-volume-hackerone-td-bank-45660-345",
+      "timestamp": "2026-03-01T05:23:24Z",
+      "type": "high_submission_volume",
+      "platform": "HackerOne",
+      "programId": "hackerone-td-bank-45660",
+      "programName": "TD Bank Group",
+      "programUrl": "https://hackerone.com/td-bank",
+      "summary": "High submission volume signal (345 total submissions)."
+    },
+    {
+      "id": "submission-volume-hackerone-autodesk-20022-1110",
+      "timestamp": "2026-03-01T05:23:24Z",
+      "type": "high_submission_volume",
+      "platform": "HackerOne",
+      "programId": "hackerone-autodesk-20022",
+      "programName": "Autodesk",
+      "programUrl": "https://hackerone.com/autodesk",
+      "summary": "High submission volume signal (1110 total submissions)."
+    },
+    {
+      "id": "change-new_program-independent-487258-01059de-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Independent",
+      "programId": "independent-487258-01059de",
+      "programName": "01059.de",
+      "programUrl": "https://01059.de/.well-known/security.txt",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-program_removed-independent-484715-113nl-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "Independent",
+      "programId": "independent-484715-113nl",
+      "programName": "113.nl",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-program_removed-independent-484553-123hostingservernet-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "Independent",
+      "programId": "independent-484553-123hostingservernet",
+      "programName": "123hostingserver.net",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-new_program-independent-487774-1whaialife-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Independent",
+      "programId": "independent-487774-1whaialife",
+      "programName": "1whaia.life",
+      "programUrl": "https://1whaia.life/.well-known/security.txt",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-new_program-independent-487957-1wjdlllife-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Independent",
+      "programId": "independent-487957-1wjdlllife",
+      "programName": "1wjdll.life",
+      "programUrl": "https://1wjdll.life/.well-known/security.txt",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-new_program-independent-487777-1wpmoqlife-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Independent",
+      "programId": "independent-487777-1wpmoqlife",
+      "programName": "1wpmoq.life",
+      "programUrl": "https://1wpmoq.life/.well-known/security.txt",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-new_program-independent-488050-1wpssjhlife-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Independent",
+      "programId": "independent-488050-1wpssjhlife",
+      "programName": "1wpssjh.life",
+      "programUrl": "https://1wpssjh.life/.well-known/security.txt",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-new_program-independent-487915-1wpszzlife-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Independent",
+      "programId": "independent-487915-1wpszzlife",
+      "programName": "1wpszz.life",
+      "programUrl": "https://1wpszz.life/.well-known/security.txt",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-new_program-independent-488035-1wqmnetop-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Independent",
+      "programId": "independent-488035-1wqmnetop",
+      "programName": "1wqmne.top",
+      "programUrl": "https://1wqmne.top/.well-known/security.txt",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-new_program-independent-488062-1wrdfmcom-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Independent",
+      "programId": "independent-488062-1wrdfmcom",
+      "programName": "1wrdfm.com",
+      "programUrl": "https://1wrdfm.com/.well-known/security.txt",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-new_program-independent-487474-1wrpydlife-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Independent",
+      "programId": "independent-487474-1wrpydlife",
+      "programName": "1wrpyd.life",
+      "programUrl": "https://1wrpyd.life/.well-known/security.txt",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-new_program-independent-487420-1wsbhclife-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Independent",
+      "programId": "independent-487420-1wsbhclife",
+      "programName": "1wsbhc.life",
+      "programUrl": "https://1wsbhc.life/.well-known/security.txt",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-new_program-independent-487366-1wtkrclife-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Independent",
+      "programId": "independent-487366-1wtkrclife",
+      "programName": "1wtkrc.life",
+      "programUrl": "https://1wtkrc.life/.well-known/security.txt",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-new_program-independent-487654-1wucencom-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Independent",
+      "programId": "independent-487654-1wucencom",
+      "programName": "1wucen.com",
+      "programUrl": "https://1wucen.com/.well-known/security.txt",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-new_program-independent-487477-1wuvaclife-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Independent",
+      "programId": "independent-487477-1wuvaclife",
+      "programName": "1wuvac.life",
+      "programUrl": "https://1wuvac.life/.well-known/security.txt",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-new_program-independent-488047-1wuznblife-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Independent",
+      "programId": "independent-488047-1wuznblife",
+      "programName": "1wuznb.life",
+      "programUrl": "https://1wuznb.life/.well-known/security.txt",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-new_program-independent-487543-1wvjevtop-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Independent",
+      "programId": "independent-487543-1wvjevtop",
+      "programName": "1wvjev.top",
+      "programUrl": "https://1wvjev.top/.well-known/security.txt",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-new_program-independent-487867-21376de-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Independent",
+      "programId": "independent-487867-21376de",
+      "programName": "21376.de",
+      "programUrl": "https://21376.de/.well-known/security.txt",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-new_program-independent-487705-3cecosmeticscom-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Independent",
+      "programId": "independent-487705-3cecosmeticscom",
+      "programName": "3cecosmetics.com",
+      "programUrl": "https://3cecosmetics.com/.well-known/security.txt",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-new_program-independent-487570-5tcforg-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Independent",
+      "programId": "independent-487570-5tcforg",
+      "programName": "5tcf.org",
+      "programUrl": "https://5tcf.org/.well-known/security.txt",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-new_program-independent-488056-64eorg-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Independent",
+      "programId": "independent-488056-64eorg",
+      "programName": "64e.org",
+      "programUrl": "https://64e.org/.well-known/security.txt",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-program_removed-independent-484979-7ffr-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "Independent",
+      "programId": "independent-484979-7ffr",
+      "programName": "7f.fr",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-program_removed-independent-484982-8ifr-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "Independent",
+      "programId": "independent-484982-8ifr",
+      "programName": "8i.fr",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-program_removed-independent-484985-8pfr-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "Independent",
+      "programId": "independent-484985-8pfr",
+      "programName": "8p.fr",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-scope_added-hackerone-8x8-bounty-49732-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-8x8-bounty-49732",
+      "programName": "8x8",
+      "programUrl": "https://hackerone.com/8x8-bounty",
+      "summary": "Scope expanded (3 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-adevinta-vdp-91516-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-adevinta-vdp-91516",
+      "programName": "Adevinta",
+      "programUrl": "https://hackerone.com/adevinta_vdp",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-program_removed-hackerone-algolia-443-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-algolia-443",
+      "programName": "Algolia",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-anthropic-vdp-82909-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-anthropic-vdp-82909",
+      "programName": "Anthropic (VDP)",
+      "programUrl": "https://hackerone.com/anthropic-vdp",
+      "summary": "Asset types updated (+0 / -1)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-anthropic-vdp-82909-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-anthropic-vdp-82909",
+      "programName": "Anthropic (VDP)",
+      "programUrl": "https://hackerone.com/anthropic-vdp",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-new_program-bugcrowd-automationconsultants-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Bugcrowd",
+      "programId": "bugcrowd-automationconsultants",
+      "programName": "AppFox",
+      "programUrl": "https://bugcrowd.com/engagements/automationconsultants",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-scope_added-hackerone-automattic-111-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-automattic-111",
+      "programName": "Automattic",
+      "programUrl": "https://hackerone.com/automattic",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-bose-vdp-107337-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-bose-vdp-107337",
+      "programName": "Bose (VDP)",
+      "programUrl": "https://hackerone.com/bose_vdp",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-bose-vdp-107337-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-bose-vdp-107337",
+      "programName": "Bose (VDP)",
+      "programUrl": "https://hackerone.com/bose_vdp",
+      "summary": "Scope expanded (6 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-bose-vdp-107337-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-bose-vdp-107337",
+      "programName": "Bose (VDP)",
+      "programUrl": "https://hackerone.com/bose_vdp",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-scope_added-hackerone-brave-15688-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-brave-15688",
+      "programName": "Brave Software",
+      "programUrl": "https://hackerone.com/brave",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-brave-15688-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-brave-15688",
+      "programName": "Brave Software",
+      "programUrl": "https://hackerone.com/brave",
+      "summary": "Scope reduced (23 targets removed)."
+    },
+    {
+      "id": "change-program_removed-bugcrowd-aylo-brazzers-mbb-og-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "Bugcrowd",
+      "programId": "bugcrowd-aylo-brazzers-mbb-og",
+      "programName": "Brazzers Managed Bug Bounty Program",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-scope_added-intigriti-buhlergroupvdp-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "Intigriti",
+      "programId": "intigriti-buhlergroupvdp",
+      "programName": "B\u00fchler Group VDP",
+      "programUrl": "https://app.intigriti.com/programs/buhlergroup/buhlergroupvdp",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-cbre-50128-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-cbre-50128",
+      "programName": "CBRE",
+      "programUrl": "https://hackerone.com/cbre",
+      "summary": "Asset types updated (+4 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-cbre-50128-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-cbre-50128",
+      "programName": "CBRE",
+      "programUrl": "https://hackerone.com/cbre",
+      "summary": "Scope expanded (8726 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-cbre-50128-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-cbre-50128",
+      "programName": "CBRE",
+      "programUrl": "https://hackerone.com/cbre",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-scope_added-hackerone-circle-bbp-83563-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-circle-bbp-83563",
+      "programName": "Circle BBP",
+      "programUrl": "https://hackerone.com/circle-bbp",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-clarivate-54839-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-clarivate-54839",
+      "programName": "Clarivate",
+      "programUrl": "https://hackerone.com/clarivate",
+      "summary": "Scope reduced (35 targets removed)."
+    },
+    {
+      "id": "change-scope_added-hackerone-cloudflare-41-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-cloudflare-41",
+      "programName": "Cloudflare Public Bug Bounty",
+      "programUrl": "https://hackerone.com/cloudflare",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-asset_type_changed-yeswehack-coindcx-bug-bounty-program-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "YesWeHack",
+      "programId": "yeswehack-coindcx-bug-bounty-program",
+      "programName": "Coindcx - Bug Bounty Program",
+      "programUrl": "https://yeswehack.com/programs/coindcx-bug-bounty-program",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-yeswehack-coindcx-bug-bounty-program-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "YesWeHack",
+      "programId": "yeswehack-coindcx-bug-bounty-program",
+      "programName": "Coindcx - Bug Bounty Program",
+      "programUrl": "https://yeswehack.com/programs/coindcx-bug-bounty-program",
+      "summary": "Scope expanded (4 new targets)."
+    },
+    {
+      "id": "change-scope_removed-yeswehack-coindcx-bug-bounty-program-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "YesWeHack",
+      "programId": "yeswehack-coindcx-bug-bounty-program",
+      "programName": "Coindcx - Bug Bounty Program",
+      "programUrl": "https://yeswehack.com/programs/coindcx-bug-bounty-program",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-bounty_changed-hackerone-cosmos-24626-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "bounty_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-cosmos-24626",
+      "programName": "Cosmos",
+      "programUrl": "https://hackerone.com/cosmos",
+      "summary": "Bounty range changed."
+    },
+    {
+      "id": "change-new_program-intigriti-coveopublicbugbounty-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Intigriti",
+      "programId": "intigriti-coveopublicbugbounty",
+      "programName": "Coveo Public Bug Bounty",
+      "programUrl": "https://app.intigriti.com/programs/coveo/coveopublicbugbounty",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-scope_added-yeswehack-cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "YesWeHack",
+      "programId": "yeswehack-cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity",
+      "programName": "Cybermalveillance.gouv.fr - sensibilization, prevention and support in terms of cybersecurity",
+      "programUrl": "https://yeswehack.com/programs/cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-scope_removed-yeswehack-cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "YesWeHack",
+      "programId": "yeswehack-cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity",
+      "programName": "Cybermalveillance.gouv.fr - sensibilization, prevention and support in terms of cybersecurity",
+      "programUrl": "https://yeswehack.com/programs/cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-new_program-intigriti-digi-vdp-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Intigriti",
+      "programId": "intigriti-digi-vdp",
+      "programName": "DIGI Responsible Disclosure Program",
+      "programUrl": "https://app.intigriti.com/programs/digi/digi-vdp",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-program_removed-yeswehack-dracoon-bug-bounty-program-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "YesWeHack",
+      "programId": "yeswehack-dracoon-bug-bounty-program",
+      "programName": "DRACOON \u2013 Bug Bounty Program",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-program_removed-intigriti-delijn-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "Intigriti",
+      "programId": "intigriti-delijn",
+      "programName": "De Lijn",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-scope_added-intigriti-demorgen-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "Intigriti",
+      "programId": "intigriti-demorgen",
+      "programName": "De Morgen",
+      "programUrl": "https://app.intigriti.com/programs/dpgm/demorgen",
+      "summary": "Scope expanded (4 new targets)."
+    },
+    {
+      "id": "change-program_removed-yeswehack-deezer-bug-bounty-program-2019-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "YesWeHack",
+      "programId": "yeswehack-deezer-bug-bounty-program-2019",
+      "programName": "Deezer Bug Bounty Program",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-scope_added-intigriti-driessenvdp-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "Intigriti",
+      "programId": "intigriti-driessenvdp",
+      "programName": "Driessen Vulnerability Disclosure Program",
+      "programUrl": "https://app.intigriti.com/programs/driessengroep/driessenvdp",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-program_removed-yeswehack-easyship-public-bug-bounty-program-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "YesWeHack",
+      "programId": "yeswehack-easyship-public-bug-bounty-program",
+      "programName": "Easyship Public Bug Bounty Program",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-scope_added-hackerone-elastic-23607-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-elastic-23607",
+      "programName": "Elastic",
+      "programUrl": "https://hackerone.com/elastic",
+      "summary": "Scope expanded (26 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-elastic-23607-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-elastic-23607",
+      "programName": "Elastic",
+      "programUrl": "https://hackerone.com/elastic",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-program_removed-hackerone-enjin-16388-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-enjin-16388",
+      "programName": "Enjin",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-estee-lauder-49230-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-estee-lauder-49230",
+      "programName": "Este\u00e9 Lauder",
+      "programUrl": "https://hackerone.com/estee-lauder",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-estee-lauder-49230-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-estee-lauder-49230",
+      "programName": "Este\u00e9 Lauder",
+      "programUrl": "https://hackerone.com/estee-lauder",
+      "summary": "Scope expanded (352 new targets)."
+    },
+    {
+      "id": "change-scope_added-hackerone-expediagroup-bbp-33992-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-expediagroup-bbp-33992",
+      "programName": "Expedia Group Bug Bounty",
+      "programUrl": "https://hackerone.com/expediagroup_bbp",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-new_program-bugcrowd-fireblocks-mbb-og2-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Bugcrowd",
+      "programId": "bugcrowd-fireblocks-mbb-og2",
+      "programName": "Fireblocks MPC Managed Bug Bounty Engagement",
+      "programUrl": "https://bugcrowd.com/engagements/fireblocks-mbb-og2",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-scope_added-hackerone-flickr-32982-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-flickr-32982",
+      "programName": "Flickr",
+      "programUrl": "https://hackerone.com/flickr",
+      "summary": "Scope expanded (2 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-flutteruki-24587-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-flutteruki-24587",
+      "programName": "Flutter UK&I",
+      "programUrl": "https://hackerone.com/flutteruki",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-program_removed-yeswehack-gnome-bug-bounty-program-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "YesWeHack",
+      "programId": "yeswehack-gnome-bug-bounty-program",
+      "programName": "GNOME Bug Bounty Program",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-program_removed-yeswehack-harman-international-web-applications-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "YesWeHack",
+      "programId": "yeswehack-harman-international-web-applications",
+      "programName": "HARMAN International - Web Applications",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-security-13-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-security-13",
+      "programName": "HackerOne",
+      "programUrl": "https://hackerone.com/security",
+      "summary": "Asset types updated (+3 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-security-13-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-security-13",
+      "programName": "HackerOne",
+      "programUrl": "https://hackerone.com/security",
+      "summary": "Scope expanded (27 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-security-13-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-security-13",
+      "programName": "HackerOne",
+      "programUrl": "https://hackerone.com/security",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-program_removed-yeswehack-harman-international-public-bug-bounty-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "YesWeHack",
+      "programId": "yeswehack-harman-international-public-bug-bounty",
+      "programName": "Harman International Lifestyle Products & Services",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-scope_added-intigriti-hetlaatstenieuws-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "Intigriti",
+      "programId": "intigriti-hetlaatstenieuws",
+      "programName": "Het Laatste Nieuws",
+      "programUrl": "https://app.intigriti.com/programs/dpgm/hetlaatstenieuws",
+      "summary": "Scope expanded (4 new targets)."
+    },
+    {
+      "id": "change-scope_added-intigriti-hetparool-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "Intigriti",
+      "programId": "intigriti-hetparool",
+      "programName": "Het Parool",
+      "programUrl": "https://app.intigriti.com/programs/dpgm/hetparool",
+      "summary": "Scope expanded (4 new targets)."
+    },
+    {
+      "id": "change-scope_added-intigriti-humo-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "Intigriti",
+      "programId": "intigriti-humo",
+      "programName": "Humo",
+      "programUrl": "https://app.intigriti.com/programs/dpgm/humo",
+      "summary": "Scope expanded (4 new targets)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-hy-vee-53329-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-hy-vee-53329",
+      "programName": "Hy-Vee",
+      "programUrl": "https://hackerone.com/hy-vee",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-hy-vee-53329-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-hy-vee-53329",
+      "programName": "Hy-Vee",
+      "programUrl": "https://hackerone.com/hy-vee",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-scope_added-hackerone-hyland-software-94573-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-hyland-software-94573",
+      "programName": "Hyland Software",
+      "programUrl": "https://hackerone.com/hyland_software",
+      "summary": "Scope expanded (14 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-hyland-software-94573-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-hyland-software-94573",
+      "programName": "Hyland Software",
+      "programUrl": "https://hackerone.com/hyland_software",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-scope_added-bugcrowd-iagloyalty-vdp-pro-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "Bugcrowd",
+      "programId": "bugcrowd-iagloyalty-vdp-pro",
+      "programName": "IAG Loyalty (Avios) Vulnerability Disclosure Program",
+      "programUrl": "https://bugcrowd.com/engagements/iagloyalty-vdp-pro",
+      "summary": "Scope expanded (3 new targets)."
+    },
+    {
+      "id": "change-scope_added-bugcrowd-insigniafinancial-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "Bugcrowd",
+      "programId": "bugcrowd-insigniafinancial",
+      "programName": "Insignia Financial Vulnerability Disclosure Program",
+      "programUrl": "https://bugcrowd.com/engagements/insigniafinancial",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-scope_added-intigriti-intergamma-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "Intigriti",
+      "programId": "intigriti-intergamma",
+      "programName": "Intergamma",
+      "programUrl": "https://app.intigriti.com/programs/intergamma/intergamma",
+      "summary": "Scope expanded (12 new targets)."
+    },
+    {
+      "id": "change-bounty_changed-hackerone-ibb-54349-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "bounty_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-ibb-54349",
+      "programName": "Internet Bug Bounty",
+      "programUrl": "https://hackerone.com/ibb",
+      "summary": "Bounty range changed."
+    },
+    {
+      "id": "change-program_removed-hackerone-inzpire-65357-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-inzpire-65357",
+      "programName": "Inzpire",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-scope_added-yeswehack-jenkins-bug-bounty-program-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "YesWeHack",
+      "programId": "yeswehack-jenkins-bug-bounty-program",
+      "programName": "Jenkins Bug Bounty Program",
+      "programUrl": "https://yeswehack.com/programs/jenkins-bug-bounty-program",
+      "summary": "Scope expanded (9 new targets)."
+    },
+    {
+      "id": "change-scope_added-hackerone-john-deere-49728-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-john-deere-49728",
+      "programName": "John Deere",
+      "programUrl": "https://hackerone.com/john-deere",
+      "summary": "Scope expanded (8 new targets)."
+    },
+    {
+      "id": "change-program_removed-hackerone-kahootz-vdp-60429-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-kahootz-vdp-60429",
+      "programName": "Kahootz",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-klarna-81945-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-klarna-81945",
+      "programName": "Klarna",
+      "programUrl": "https://hackerone.com/klarna",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-intigriti-libelle-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "Intigriti",
+      "programId": "intigriti-libelle",
+      "programName": "Libelle",
+      "programUrl": "https://app.intigriti.com/programs/dpgm/libelle",
+      "summary": "Scope expanded (4 new targets)."
+    },
+    {
+      "id": "change-scope_added-hackerone-logitech-32972-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-logitech-32972",
+      "programName": "Logitech",
+      "programUrl": "https://hackerone.com/logitech",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-program_removed-hackerone-loofah-26813-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-loofah-26813",
+      "programName": "Loofah",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-bounty_changed-yeswehack-louis-vuitton-malletier-public-bug-bounty-program-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "bounty_changed",
+      "platform": "YesWeHack",
+      "programId": "yeswehack-louis-vuitton-malletier-public-bug-bounty-program",
+      "programName": "Louis Vuitton Malletier - Public Bug Bounty Program",
+      "programUrl": "https://yeswehack.com/programs/louis-vuitton-malletier-public-bug-bounty-program",
+      "summary": "Bounty range changed."
+    },
+    {
+      "id": "change-new_program-hackerone-mod-supply-chain-vdp-108513-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "HackerOne",
+      "programId": "hackerone-mod-supply-chain-vdp-108513",
+      "programName": "MOD Supply Chain VDP",
+      "programUrl": "https://hackerone.com/mod_supply_chain_vdp",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-program_removed-hackerone-mactaggart-scott-65361-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-mactaggart-scott-65361",
+      "programName": "MacTaggart Scott",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-new_program-bugcrowd-mcdonalds-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "Bugcrowd",
+      "programId": "bugcrowd-mcdonalds",
+      "programName": "McDonald's Vulnerability Disclosure Engagement",
+      "programUrl": "https://bugcrowd.com/engagements/mcdonalds",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-scope_added-hackerone-metamask-56419-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-metamask-56419",
+      "programName": "MetaMask",
+      "programUrl": "https://hackerone.com/metamask",
+      "summary": "Scope expanded (5 new targets)."
+    },
+    {
+      "id": "change-scope_added-hackerone-mondelez-55095-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-mondelez-55095",
+      "programName": "Mondel\u0113z International",
+      "programUrl": "https://hackerone.com/mondelez",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-program_removed-bugcrowd-aylo-mydirtyhobby-mbb-og-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "Bugcrowd",
+      "programId": "bugcrowd-aylo-mydirtyhobby-mbb-og",
+      "programName": "MyDirtyHobby Managed Bug Bounty Program",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-scope_removed-hackerone-netflix-75285-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-netflix-75285",
+      "programName": "Netflix",
+      "programUrl": "https://hackerone.com/netflix",
+      "summary": "Scope reduced (2 targets removed)."
+    },
+    {
+      "id": "change-scope_added-intigriti-ninjakiwigames-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "Intigriti",
+      "programId": "intigriti-ninjakiwigames",
+      "programName": "Ninja Kiwi Games Bug Bounty program",
+      "programUrl": "https://app.intigriti.com/programs/ninjakiwigames/ninjakiwigames",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-program_removed-bugcrowd-aylo-nutaku-mbb-og-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "Bugcrowd",
+      "programId": "bugcrowd-aylo-nutaku-mbb-og",
+      "programName": "Nutaku Managed Bug Bounty Program",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-oppo-bbp-92406-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-oppo-bbp-92406",
+      "programName": "OPPO",
+      "programUrl": "https://hackerone.com/oppo_bbp",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-oppo-bbp-92406-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-oppo-bbp-92406",
+      "programName": "OPPO",
+      "programUrl": "https://hackerone.com/oppo_bbp",
+      "summary": "Scope expanded (92 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-oppo-bbp-92406-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-oppo-bbp-92406",
+      "programName": "OPPO",
+      "programUrl": "https://hackerone.com/oppo_bbp",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-bounty_changed-bugcrowd-openai-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "bounty_changed",
+      "platform": "Bugcrowd",
+      "programId": "bugcrowd-openai",
+      "programName": "OpenAI",
+      "programUrl": "https://bugcrowd.com/engagements/openai",
+      "summary": "Bounty range changed."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-openmage-46502-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-openmage-46502",
+      "programName": "OpenMage",
+      "programUrl": "https://hackerone.com/openmage",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-openmage-46502-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-openmage-46502",
+      "programName": "OpenMage",
+      "programUrl": "https://hackerone.com/openmage",
+      "summary": "Scope expanded (3 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-openmage-46502-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-openmage-46502",
+      "programName": "OpenMage",
+      "programUrl": "https://hackerone.com/openmage",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-program_removed-yeswehack-openproject-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "YesWeHack",
+      "programId": "yeswehack-openproject",
+      "programName": "OpenProject Bug Bounty Program",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-oportun-vdp-18748-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-oportun-vdp-18748",
+      "programName": "Oportun",
+      "programUrl": "https://hackerone.com/oportun_vdp",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-oportun-vdp-18748-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-oportun-vdp-18748",
+      "programName": "Oportun",
+      "programUrl": "https://hackerone.com/oportun_vdp",
+      "summary": "Scope expanded (44 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-oportun-vdp-18748-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-oportun-vdp-18748",
+      "programName": "Oportun",
+      "programUrl": "https://hackerone.com/oportun_vdp",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-scope_added-hackerone-overloop-42426-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-overloop-42426",
+      "programName": "Overloop",
+      "programUrl": "https://hackerone.com/overloop",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-overloop-42426-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-overloop-42426",
+      "programName": "Overloop",
+      "programUrl": "https://hackerone.com/overloop",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-scope_added-hackerone-pubg-44491-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-pubg-44491",
+      "programName": "PUBG",
+      "programUrl": "https://hackerone.com/pubg",
+      "summary": "Scope expanded (2 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-pubg-44491-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-pubg-44491",
+      "programName": "PUBG",
+      "programUrl": "https://hackerone.com/pubg",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-pagerduty-54574-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-pagerduty-54574",
+      "programName": "PagerDuty",
+      "programUrl": "https://hackerone.com/pagerduty",
+      "summary": "Asset types updated (+3 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-pagerduty-54574-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-pagerduty-54574",
+      "programName": "PagerDuty",
+      "programUrl": "https://hackerone.com/pagerduty",
+      "summary": "Scope expanded (18 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-pagerduty-54574-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-pagerduty-54574",
+      "programName": "PagerDuty",
+      "programUrl": "https://hackerone.com/pagerduty",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-palantir-public-55091-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-palantir-public-55091",
+      "programName": "Palantir Public",
+      "programUrl": "https://hackerone.com/palantir_public",
+      "summary": "Asset types updated (+1 / -1)."
+    },
+    {
+      "id": "change-scope_added-hackerone-palantir-public-55091-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-palantir-public-55091",
+      "programName": "Palantir Public",
+      "programUrl": "https://hackerone.com/palantir_public",
+      "summary": "Scope expanded (2 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-palantir-public-55091-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-palantir-public-55091",
+      "programName": "Palantir Public",
+      "programUrl": "https://hackerone.com/palantir_public",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-scope_added-hackerone-palo-alto-software-42327-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-palo-alto-software-42327",
+      "programName": "Palo Alto Software",
+      "programUrl": "https://hackerone.com/palo_alto_software",
+      "summary": "Scope expanded (4 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-palo-alto-software-42327-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-palo-alto-software-42327",
+      "programName": "Palo Alto Software",
+      "programUrl": "https://hackerone.com/palo_alto_software",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-particle-health-vdp-53090-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-particle-health-vdp-53090",
+      "programName": "Particle Health VDP",
+      "programUrl": "https://hackerone.com/particle-health-vdp",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-particle-health-vdp-53090-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-particle-health-vdp-53090",
+      "programName": "Particle Health VDP",
+      "programUrl": "https://hackerone.com/particle-health-vdp",
+      "summary": "Scope expanded (9 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-particle-health-vdp-53090-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-particle-health-vdp-53090",
+      "programName": "Particle Health VDP",
+      "programUrl": "https://hackerone.com/particle-health-vdp",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-paypal-1915-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-paypal-1915",
+      "programName": "PayPal",
+      "programUrl": "https://hackerone.com/paypal",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-paypal-1915-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-paypal-1915",
+      "programName": "PayPal",
+      "programUrl": "https://hackerone.com/paypal",
+      "summary": "Scope expanded (41 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-paypal-1915-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-paypal-1915",
+      "programName": "PayPal",
+      "programUrl": "https://hackerone.com/paypal",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-scope_added-hackerone-payoneer-51514-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-payoneer-51514",
+      "programName": "Payoneer",
+      "programUrl": "https://hackerone.com/payoneer",
+      "summary": "Scope expanded (5 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-payoneer-51514-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-payoneer-51514",
+      "programName": "Payoneer",
+      "programUrl": "https://hackerone.com/payoneer",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-paystack-vdp-50934-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-paystack-vdp-50934",
+      "programName": "Paystack Vulnerability Disclosure",
+      "programUrl": "https://hackerone.com/paystack-vdp",
+      "summary": "Asset types updated (+3 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-paystack-vdp-50934-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-paystack-vdp-50934",
+      "programName": "Paystack Vulnerability Disclosure",
+      "programUrl": "https://hackerone.com/paystack-vdp",
+      "summary": "Scope expanded (14 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-paystack-vdp-50934-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-paystack-vdp-50934",
+      "programName": "Paystack Vulnerability Disclosure",
+      "programUrl": "https://hackerone.com/paystack-vdp",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-scope_added-hackerone-peloton-83103-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-peloton-83103",
+      "programName": "Peloton",
+      "programUrl": "https://hackerone.com/peloton",
+      "summary": "Scope expanded (5 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-peloton-83103-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-peloton-83103",
+      "programName": "Peloton",
+      "programUrl": "https://hackerone.com/peloton",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-penn-entertainment-92483-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-penn-entertainment-92483",
+      "programName": "Penn Entertainment",
+      "programUrl": "https://hackerone.com/penn_entertainment",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-penn-entertainment-92483-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-penn-entertainment-92483",
+      "programName": "Penn Entertainment",
+      "programUrl": "https://hackerone.com/penn_entertainment",
+      "summary": "Scope expanded (11 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-penn-entertainment-92483-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-penn-entertainment-92483",
+      "programName": "Penn Entertainment",
+      "programUrl": "https://hackerone.com/penn_entertainment",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-pepsico-vdp-87092-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-pepsico-vdp-87092",
+      "programName": "PepsiCo VDP",
+      "programUrl": "https://hackerone.com/pepsico_vdp",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-pepsico-vdp-87092-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-pepsico-vdp-87092",
+      "programName": "PepsiCo VDP",
+      "programUrl": "https://hackerone.com/pepsico_vdp",
+      "summary": "Scope expanded (216 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-pepsico-vdp-87092-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-pepsico-vdp-87092",
+      "programName": "PepsiCo VDP",
+      "programUrl": "https://hackerone.com/pepsico_vdp",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-picsart-44134-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-picsart-44134",
+      "programName": "Picsart",
+      "programUrl": "https://hackerone.com/picsart",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-picsart-44134-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-picsart-44134",
+      "programName": "Picsart",
+      "programUrl": "https://hackerone.com/picsart",
+      "summary": "Scope expanded (18 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-picsart-44134-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-picsart-44134",
+      "programName": "Picsart",
+      "programUrl": "https://hackerone.com/picsart",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-pingidentity-25188-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-pingidentity-25188",
+      "programName": "Ping Identity",
+      "programUrl": "https://hackerone.com/pingidentity",
+      "summary": "Asset types updated (+3 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-pingidentity-25188-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-pingidentity-25188",
+      "programName": "Ping Identity",
+      "programUrl": "https://hackerone.com/pingidentity",
+      "summary": "Scope expanded (10 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-pingidentity-25188-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-pingidentity-25188",
+      "programName": "Ping Identity",
+      "programUrl": "https://hackerone.com/pingidentity",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-plaid-15391-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-plaid-15391",
+      "programName": "Plaid",
+      "programUrl": "https://hackerone.com/plaid",
+      "summary": "Asset types updated (+3 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-plaid-15391-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-plaid-15391",
+      "programName": "Plaid",
+      "programUrl": "https://hackerone.com/plaid",
+      "summary": "Scope expanded (13 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-plaid-15391-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-plaid-15391",
+      "programName": "Plaid",
+      "programUrl": "https://hackerone.com/plaid",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-planet-labs-53834-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-planet-labs-53834",
+      "programName": "Planet Labs",
+      "programUrl": "https://hackerone.com/planet-labs",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-planet-labs-53834-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-planet-labs-53834",
+      "programName": "Planet Labs",
+      "programUrl": "https://hackerone.com/planet-labs",
+      "summary": "Scope expanded (4 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-planet-labs-53834-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-planet-labs-53834",
+      "programName": "Planet Labs",
+      "programUrl": "https://hackerone.com/planet-labs",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-playstation-44879-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-playstation-44879",
+      "programName": "PlayStation",
+      "programUrl": "https://hackerone.com/playstation",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-playstation-44879-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-playstation-44879",
+      "programName": "PlayStation",
+      "programUrl": "https://hackerone.com/playstation",
+      "summary": "Scope expanded (18 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-playstation-44879-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-playstation-44879",
+      "programName": "PlayStation",
+      "programUrl": "https://hackerone.com/playstation",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-playtika-52545-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-playtika-52545",
+      "programName": "Playtika",
+      "programUrl": "https://hackerone.com/playtika",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-playtika-52545-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-playtika-52545",
+      "programName": "Playtika",
+      "programUrl": "https://hackerone.com/playtika",
+      "summary": "Scope expanded (65 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-playtika-52545-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-playtika-52545",
+      "programName": "Playtika",
+      "programUrl": "https://hackerone.com/playtika",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-polygon-technology-49048-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-polygon-technology-49048",
+      "programName": "Polygon Technology",
+      "programUrl": "https://hackerone.com/polygon-technology",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-polygon-technology-49048-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-polygon-technology-49048",
+      "programName": "Polygon Technology",
+      "programUrl": "https://hackerone.com/polygon-technology",
+      "summary": "Scope expanded (8 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-polygon-technology-49048-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-polygon-technology-49048",
+      "programName": "Polygon Technology",
+      "programUrl": "https://hackerone.com/polygon-technology",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-scope_added-hackerone-pornbox-60414-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-pornbox-60414",
+      "programName": "PornBox",
+      "programUrl": "https://hackerone.com/pornbox",
+      "summary": "Scope expanded (4 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-pornbox-60414-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-pornbox-60414",
+      "programName": "PornBox",
+      "programUrl": "https://hackerone.com/pornbox",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-program_removed-bugcrowd-aylo-mbb-og-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "Bugcrowd",
+      "programId": "bugcrowd-aylo-mbb-og",
+      "programName": "Pornhub Managed Bug Bounty Program",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-portswigger-15252-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-portswigger-15252",
+      "programName": "PortSwigger Web Security",
+      "programUrl": "https://hackerone.com/portswigger",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-portswigger-15252-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-portswigger-15252",
+      "programName": "PortSwigger Web Security",
+      "programUrl": "https://hackerone.com/portswigger",
+      "summary": "Scope expanded (10 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-portswigger-15252-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-portswigger-15252",
+      "programName": "PortSwigger Web Security",
+      "programUrl": "https://hackerone.com/portswigger",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-priceline-59-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-priceline-59",
+      "programName": "Priceline",
+      "programUrl": "https://hackerone.com/priceline",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-priceline-59-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-priceline-59",
+      "programName": "Priceline",
+      "programUrl": "https://hackerone.com/priceline",
+      "summary": "Scope expanded (13 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-priceline-59-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-priceline-59",
+      "programName": "Priceline",
+      "programUrl": "https://hackerone.com/priceline",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-privy-bbp-73506-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-privy-bbp-73506",
+      "programName": "Privy (Bounty)",
+      "programUrl": "https://hackerone.com/privy-bbp",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-privy-bbp-73506-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-privy-bbp-73506",
+      "programName": "Privy (Bounty)",
+      "programUrl": "https://hackerone.com/privy-bbp",
+      "summary": "Scope expanded (12 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-privy-bbp-73506-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-privy-bbp-73506",
+      "programName": "Privy (Bounty)",
+      "programUrl": "https://hackerone.com/privy-bbp",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-program_removed-bugcrowd-aylo-probiller-mbb-og-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "Bugcrowd",
+      "programId": "bugcrowd-aylo-probiller-mbb-og",
+      "programName": "Probiller Managed Bug Bounty Program",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-scope_added-hackerone-productboard-57997-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-productboard-57997",
+      "programName": "ProductBoard, Inc.",
+      "programUrl": "https://hackerone.com/productboard",
+      "summary": "Scope expanded (2 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-productboard-57997-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-productboard-57997",
+      "programName": "ProductBoard, Inc.",
+      "programUrl": "https://hackerone.com/productboard",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-program_removed-hackerone-prolinx-vdp-60431-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-prolinx-vdp-60431",
+      "programName": "Prolinx VDP",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-scope_added-hackerone-prudential-financial-56330-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-prudential-financial-56330",
+      "programName": "Prudential Financial",
+      "programUrl": "https://hackerone.com/prudential-financial",
+      "summary": "Scope expanded (2 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-prudential-financial-56330-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-prudential-financial-56330",
+      "programName": "Prudential Financial",
+      "programUrl": "https://hackerone.com/prudential-financial",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-pyca-13323-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-pyca-13323",
+      "programName": "Python Cryptographic Authority",
+      "programUrl": "https://hackerone.com/pyca",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-pyca-13323-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-pyca-13323",
+      "programName": "Python Cryptographic Authority",
+      "programUrl": "https://hackerone.com/pyca",
+      "summary": "Scope expanded (7 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-pyca-13323-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-pyca-13323",
+      "programName": "Python Cryptographic Authority",
+      "programUrl": "https://hackerone.com/pyca",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-quora-3152-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-quora-3152",
+      "programName": "Quora",
+      "programUrl": "https://hackerone.com/quora",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-quora-3152-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-quora-3152",
+      "programName": "Quora",
+      "programUrl": "https://hackerone.com/quora",
+      "summary": "Scope expanded (4 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-quora-3152-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-quora-3152",
+      "programName": "Quora",
+      "programUrl": "https://hackerone.com/quora",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-scope_added-hackerone-r3-45701-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-r3-45701",
+      "programName": "R3",
+      "programUrl": "https://hackerone.com/r3",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-r3-45701-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-r3-45701",
+      "programName": "R3",
+      "programUrl": "https://hackerone.com/r3",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-program_removed-hackerone-ratelimited-26860-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "program_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-ratelimited-26860",
+      "programName": "RATELIMITED",
+      "programUrl": "",
+      "summary": "Program removed from the dataset."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-rei-bbp-58678-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-rei-bbp-58678",
+      "programName": "REI BBP",
+      "programUrl": "https://hackerone.com/rei_bbp",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-rei-bbp-58678-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-rei-bbp-58678",
+      "programName": "REI BBP",
+      "programUrl": "https://hackerone.com/rei_bbp",
+      "summary": "Scope expanded (6 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-rei-bbp-58678-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-rei-bbp-58678",
+      "programName": "REI BBP",
+      "programUrl": "https://hackerone.com/rei_bbp",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-rei-vdp-58679-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-rei-vdp-58679",
+      "programName": "REI VDP",
+      "programUrl": "https://hackerone.com/rei_vdp",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-rei-vdp-58679-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-rei-vdp-58679",
+      "programName": "REI VDP",
+      "programUrl": "https://hackerone.com/rei_vdp",
+      "summary": "Scope expanded (6 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-rei-vdp-58679-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-rei-vdp-58679",
+      "programName": "REI VDP",
+      "programUrl": "https://hackerone.com/rei_vdp",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-scope_added-bugcrowd-rakuten-vdp-pro-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "Bugcrowd",
+      "programId": "bugcrowd-rakuten-vdp-pro",
+      "programName": "Rakuten Group, Inc. Vulnerability Disclosure Program",
+      "programUrl": "https://bugcrowd.com/engagements/rakuten-vdp-pro",
+      "summary": "Scope expanded (5 new targets)."
+    },
+    {
+      "id": "change-scope_removed-bugcrowd-rakuten-vdp-pro-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "Bugcrowd",
+      "programId": "bugcrowd-rakuten-vdp-pro",
+      "programName": "Rakuten Group, Inc. Vulnerability Disclosure Program",
+      "programUrl": "https://bugcrowd.com/engagements/rakuten-vdp-pro",
+      "summary": "Scope reduced (3 targets removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-razorpay-54299-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-razorpay-54299",
+      "programName": "Razorpay",
+      "programUrl": "https://hackerone.com/razorpay",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-razorpay-54299-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-razorpay-54299",
+      "programName": "Razorpay",
+      "programUrl": "https://hackerone.com/razorpay",
+      "summary": "Scope expanded (6 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-razorpay-54299-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-razorpay-54299",
+      "programName": "Razorpay",
+      "programUrl": "https://hackerone.com/razorpay",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-recreation-gov-vdp-88742-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-recreation-gov-vdp-88742",
+      "programName": "Recreation.gov",
+      "programUrl": "https://hackerone.com/recreation_gov_vdp",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-recreation-gov-vdp-88742-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-recreation-gov-vdp-88742",
+      "programName": "Recreation.gov",
+      "programUrl": "https://hackerone.com/recreation_gov_vdp",
+      "summary": "Scope expanded (7 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-recreation-gov-vdp-88742-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-recreation-gov-vdp-88742",
+      "programName": "Recreation.gov",
+      "programUrl": "https://hackerone.com/recreation_gov_vdp",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-reddit-35710-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-reddit-35710",
+      "programName": "Reddit",
+      "programUrl": "https://hackerone.com/reddit",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-reddit-35710-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-reddit-35710",
+      "programName": "Reddit",
+      "programUrl": "https://hackerone.com/reddit",
+      "summary": "Scope expanded (28 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-reddit-35710-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-reddit-35710",
+      "programName": "Reddit",
+      "programUrl": "https://hackerone.com/reddit",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-redis-vdp-54608-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-redis-vdp-54608",
+      "programName": "Redis VDP",
+      "programUrl": "https://hackerone.com/redis-vdp",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-redis-vdp-54608-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-redis-vdp-54608",
+      "programName": "Redis VDP",
+      "programUrl": "https://hackerone.com/redis-vdp",
+      "summary": "Scope expanded (5 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-redis-vdp-54608-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-redis-vdp-54608",
+      "programName": "Redis VDP",
+      "programUrl": "https://hackerone.com/redis-vdp",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-redox-bbp-61055-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-redox-bbp-61055",
+      "programName": "Redox",
+      "programUrl": "https://hackerone.com/redox_bbp",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-redox-bbp-61055-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-redox-bbp-61055",
+      "programName": "Redox",
+      "programUrl": "https://hackerone.com/redox_bbp",
+      "summary": "Scope expanded (9 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-redox-bbp-61055-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-redox-bbp-61055",
+      "programName": "Redox",
+      "programUrl": "https://hackerone.com/redox_bbp",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-regions-financial-104132-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-regions-financial-104132",
+      "programName": "Regions Financial",
+      "programUrl": "https://hackerone.com/regions_financial",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-regions-financial-104132-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-regions-financial-104132",
+      "programName": "Regions Financial",
+      "programUrl": "https://hackerone.com/regions_financial",
+      "summary": "Scope expanded (12 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-regions-financial-104132-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-regions-financial-104132",
+      "programName": "Regions Financial",
+      "programUrl": "https://hackerone.com/regions_financial",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-remitly-32674-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-remitly-32674",
+      "programName": "Remitly",
+      "programUrl": "https://hackerone.com/remitly",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-remitly-32674-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-remitly-32674",
+      "programName": "Remitly",
+      "programUrl": "https://hackerone.com/remitly",
+      "summary": "Scope expanded (26 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-remitly-32674-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-remitly-32674",
+      "programName": "Remitly",
+      "programUrl": "https://hackerone.com/remitly",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-render-57016-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-render-57016",
+      "programName": "Render",
+      "programUrl": "https://hackerone.com/render",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-render-57016-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-render-57016",
+      "programName": "Render",
+      "programUrl": "https://hackerone.com/render",
+      "summary": "Scope expanded (3 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-render-57016-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-render-57016",
+      "programName": "Render",
+      "programUrl": "https://hackerone.com/render",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-resmed-57666-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-resmed-57666",
+      "programName": "ResMed",
+      "programUrl": "https://hackerone.com/resmed",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-resmed-57666-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-resmed-57666",
+      "programName": "ResMed",
+      "programUrl": "https://hackerone.com/resmed",
+      "summary": "Scope expanded (63 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-resmed-57666-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-resmed-57666",
+      "programName": "ResMed",
+      "programUrl": "https://hackerone.com/resmed",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-revive-adserver-2367-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-revive-adserver-2367",
+      "programName": "Revive Adserver",
+      "programUrl": "https://hackerone.com/revive_adserver",
+      "summary": "Asset types updated (+1 / -1)."
+    },
+    {
+      "id": "change-scope_added-hackerone-revive-adserver-2367-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-revive-adserver-2367",
+      "programName": "Revive Adserver",
+      "programUrl": "https://hackerone.com/revive_adserver",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-revive-adserver-2367-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-revive-adserver-2367",
+      "programName": "Revive Adserver",
+      "programUrl": "https://hackerone.com/revive_adserver",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-ring-63606-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-ring-63606",
+      "programName": "Ring",
+      "programUrl": "https://hackerone.com/ring",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-ring-63606-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-ring-63606",
+      "programName": "Ring",
+      "programUrl": "https://hackerone.com/ring",
+      "summary": "Scope expanded (30 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-ring-63606-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-ring-63606",
+      "programName": "Ring",
+      "programUrl": "https://hackerone.com/ring",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-ripio-56011-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-ripio-56011",
+      "programName": "Ripio",
+      "programUrl": "https://hackerone.com/ripio",
+      "summary": "Asset types updated (+4 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-ripio-56011-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-ripio-56011",
+      "programName": "Ripio",
+      "programUrl": "https://hackerone.com/ripio",
+      "summary": "Scope expanded (10 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-ripio-56011-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-ripio-56011",
+      "programName": "Ripio",
+      "programUrl": "https://hackerone.com/ripio",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-ro-56104-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-ro-56104",
+      "programName": "Ro",
+      "programUrl": "https://hackerone.com/ro",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-ro-56104-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-ro-56104",
+      "programName": "Ro",
+      "programUrl": "https://hackerone.com/ro",
+      "summary": "Scope expanded (17 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-ro-56104-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-ro-56104",
+      "programName": "Ro",
+      "programUrl": "https://hackerone.com/ro",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-robinhood-markets-105207-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-robinhood-markets-105207",
+      "programName": "Robinhood Markets",
+      "programUrl": "https://hackerone.com/robinhood_markets",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-robinhood-markets-105207-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-robinhood-markets-105207",
+      "programName": "Robinhood Markets",
+      "programUrl": "https://hackerone.com/robinhood_markets",
+      "summary": "Scope expanded (42 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-robinhood-markets-105207-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-robinhood-markets-105207",
+      "programName": "Robinhood Markets",
+      "programUrl": "https://hackerone.com/robinhood_markets",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-robinhood-105208-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-robinhood-105208",
+      "programName": "Robinhood Markets Bounty",
+      "programUrl": "https://hackerone.com/robinhood",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-robinhood-105208-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-robinhood-105208",
+      "programName": "Robinhood Markets Bounty",
+      "programUrl": "https://hackerone.com/robinhood",
+      "summary": "Scope expanded (38 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-robinhood-105208-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-robinhood-105208",
+      "programName": "Robinhood Markets Bounty",
+      "programUrl": "https://hackerone.com/robinhood",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-roblox-19491-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-roblox-19491",
+      "programName": "Roblox",
+      "programUrl": "https://hackerone.com/roblox",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-roblox-19491-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-roblox-19491",
+      "programName": "Roblox",
+      "programUrl": "https://hackerone.com/roblox",
+      "summary": "Scope expanded (7 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-roblox-19491-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-roblox-19491",
+      "programName": "Roblox",
+      "programUrl": "https://hackerone.com/roblox",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-new_program-hackerone-rocket-chat-19858-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "new_program",
+      "platform": "HackerOne",
+      "programId": "hackerone-rocket-chat-19858",
+      "programName": "Rocket.Chat",
+      "programUrl": "https://hackerone.com/rocket_chat",
+      "summary": "Program added to the dataset."
+    },
+    {
+      "id": "change-scope_added-hackerone-rockstargames-2143-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-rockstargames-2143",
+      "programName": "Rockstar Games",
+      "programUrl": "https://hackerone.com/rockstargames",
+      "summary": "Scope expanded (9 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-rockstargames-2143-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-rockstargames-2143",
+      "programName": "Rockstar Games",
+      "programUrl": "https://hackerone.com/rockstargames",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-scope_added-hackerone-roke-vdp-65358-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-roke-vdp-65358",
+      "programName": "Roke",
+      "programUrl": "https://hackerone.com/roke_vdp",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-roke-vdp-65358-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-roke-vdp-65358",
+      "programName": "Roke",
+      "programUrl": "https://hackerone.com/roke_vdp",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-ruby-7724-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-ruby-7724",
+      "programName": "Ruby",
+      "programUrl": "https://hackerone.com/ruby",
+      "summary": "Asset types updated (+1 / -1)."
+    },
+    {
+      "id": "change-scope_added-hackerone-ruby-7724-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-ruby-7724",
+      "programName": "Ruby",
+      "programUrl": "https://hackerone.com/ruby",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-ruby-7724-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-ruby-7724",
+      "programName": "Ruby",
+      "programUrl": "https://hackerone.com/ruby",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-rails-22-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-rails-22",
+      "programName": "Ruby on Rails",
+      "programUrl": "https://hackerone.com/rails",
+      "summary": "Asset types updated (+1 / -1)."
+    },
+    {
+      "id": "change-scope_added-hackerone-rails-22-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-rails-22",
+      "programName": "Ruby on Rails",
+      "programUrl": "https://hackerone.com/rails",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-rails-22-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-rails-22",
+      "programName": "Ruby on Rails",
+      "programUrl": "https://hackerone.com/rails",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-rubygems-8212-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-rubygems-8212",
+      "programName": "RubyGems",
+      "programUrl": "https://hackerone.com/rubygems",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-rubygems-8212-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-rubygems-8212",
+      "programName": "RubyGems",
+      "programUrl": "https://hackerone.com/rubygems",
+      "summary": "Scope expanded (4 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-rubygems-8212-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-rubygems-8212",
+      "programName": "RubyGems",
+      "programUrl": "https://hackerone.com/rubygems",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-s-pankki-29970-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-s-pankki-29970",
+      "programName": "S-Pankki",
+      "programUrl": "https://hackerone.com/s-pankki",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-s-pankki-29970-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-s-pankki-29970",
+      "programName": "S-Pankki",
+      "programUrl": "https://hackerone.com/s-pankki",
+      "summary": "Scope expanded (14 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-s-pankki-29970-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-s-pankki-29970",
+      "programName": "S-Pankki",
+      "programUrl": "https://hackerone.com/s-pankki",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-sega-53545-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-sega-53545",
+      "programName": "SEGA",
+      "programUrl": "https://hackerone.com/sega",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-sega-53545-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-sega-53545",
+      "programName": "SEGA",
+      "programUrl": "https://hackerone.com/sega",
+      "summary": "Scope expanded (9 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-sega-53545-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-sega-53545",
+      "programName": "SEGA",
+      "programUrl": "https://hackerone.com/sega",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-shein-46469-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-shein-46469",
+      "programName": "SHEIN",
+      "programUrl": "https://hackerone.com/shein",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-shein-46469-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-shein-46469",
+      "programName": "SHEIN",
+      "programUrl": "https://hackerone.com/shein",
+      "summary": "Scope expanded (7 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-shein-46469-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-shein-46469",
+      "programName": "SHEIN",
+      "programUrl": "https://hackerone.com/shein",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-six-group-63415-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-six-group-63415",
+      "programName": "SIX Group",
+      "programUrl": "https://hackerone.com/six-group",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-six-group-63415-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-six-group-63415",
+      "programName": "SIX Group",
+      "programUrl": "https://hackerone.com/six-group",
+      "summary": "Scope expanded (56 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-six-group-63415-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-six-group-63415",
+      "programName": "SIX Group",
+      "programUrl": "https://hackerone.com/six-group",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-smtp2go-52553-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-smtp2go-52553",
+      "programName": "SMTP2GO BBP",
+      "programUrl": "https://hackerone.com/smtp2go",
+      "summary": "Asset types updated (+1 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-smtp2go-52553-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-smtp2go-52553",
+      "programName": "SMTP2GO BBP",
+      "programUrl": "https://hackerone.com/smtp2go",
+      "summary": "Scope expanded (3 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-smtp2go-52553-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-smtp2go-52553",
+      "programName": "SMTP2GO BBP",
+      "programUrl": "https://hackerone.com/smtp2go",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-scopely-567-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-scopely-567",
+      "programName": "Scopely",
+      "programUrl": "https://hackerone.com/scopely",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-scopely-567-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-scopely-567",
+      "programName": "Scopely",
+      "programUrl": "https://hackerone.com/scopely",
+      "summary": "Scope expanded (21 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-scopely-567-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-scopely-567",
+      "programName": "Scopely",
+      "programUrl": "https://hackerone.com/scopely",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-scope_added-hackerone-semrush-15966-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-semrush-15966",
+      "programName": "Semrush",
+      "programUrl": "https://hackerone.com/semrush",
+      "summary": "Scope expanded (13 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-semrush-15966-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-semrush-15966",
+      "programName": "Semrush",
+      "programUrl": "https://hackerone.com/semrush",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-scope_added-hackerone-servicenow-disclosure-53129-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-servicenow-disclosure-53129",
+      "programName": "ServiceNow Disclosure",
+      "programUrl": "https://hackerone.com/servicenow-disclosure",
+      "summary": "Scope expanded (3 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-servicenow-disclosure-53129-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-servicenow-disclosure-53129",
+      "programName": "ServiceNow Disclosure",
+      "programUrl": "https://hackerone.com/servicenow-disclosure",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-scope_added-hackerone-sheer-bbp-58697-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-sheer-bbp-58697",
+      "programName": "Sheer",
+      "programUrl": "https://hackerone.com/sheer_bbp",
+      "summary": "Scope expanded (2 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-sheer-bbp-58697-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-sheer-bbp-58697",
+      "programName": "Sheer",
+      "programUrl": "https://hackerone.com/sheer_bbp",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-shopify-1382-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-shopify-1382",
+      "programName": "Shopify",
+      "programUrl": "https://hackerone.com/shopify",
+      "summary": "Asset types updated (+3 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-shopify-1382-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-shopify-1382",
+      "programName": "Shopify",
+      "programUrl": "https://hackerone.com/shopify",
+      "summary": "Scope expanded (20 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-shopify-1382-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-shopify-1382",
+      "programName": "Shopify",
+      "programUrl": "https://hackerone.com/shopify",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-shutterfly-vdp-47225-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-shutterfly-vdp-47225",
+      "programName": "Shutterfly VDP",
+      "programUrl": "https://hackerone.com/shutterfly_vdp",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-shutterfly-vdp-47225-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-shutterfly-vdp-47225",
+      "programName": "Shutterfly VDP",
+      "programUrl": "https://hackerone.com/shutterfly_vdp",
+      "summary": "Scope expanded (35 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-shutterfly-vdp-47225-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-shutterfly-vdp-47225",
+      "programName": "Shutterfly VDP",
+      "programUrl": "https://hackerone.com/shutterfly_vdp",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-scope_added-hackerone-sidefx-55552-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-sidefx-55552",
+      "programName": "SideFX",
+      "programUrl": "https://hackerone.com/sidefx",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-sidefx-55552-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-sidefx-55552",
+      "programName": "SideFX",
+      "programUrl": "https://hackerone.com/sidefx",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-scope_added-hackerone-simple-poll-45395-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-simple-poll-45395",
+      "programName": "Simple Poll",
+      "programUrl": "https://hackerone.com/simple_poll",
+      "summary": "Scope expanded (4 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-simple-poll-45395-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-simple-poll-45395",
+      "programName": "Simple Poll",
+      "programUrl": "https://hackerone.com/simple_poll",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-singlestore-77907-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-singlestore-77907",
+      "programName": "SingleStore",
+      "programUrl": "https://hackerone.com/singlestore",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-singlestore-77907-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-singlestore-77907",
+      "programName": "SingleStore",
+      "programUrl": "https://hackerone.com/singlestore",
+      "summary": "Scope expanded (16 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-singlestore-77907-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-singlestore-77907",
+      "programName": "SingleStore",
+      "programUrl": "https://hackerone.com/singlestore",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-slack-69-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-slack-69",
+      "programName": "Slack",
+      "programUrl": "https://hackerone.com/slack",
+      "summary": "Asset types updated (+3 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-slack-69-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-slack-69",
+      "programName": "Slack",
+      "programUrl": "https://hackerone.com/slack",
+      "summary": "Scope expanded (19 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-slack-69-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-slack-69",
+      "programName": "Slack",
+      "programUrl": "https://hackerone.com/slack",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-snapchat-513-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-snapchat-513",
+      "programName": "Snapchat",
+      "programUrl": "https://hackerone.com/snapchat",
+      "summary": "Asset types updated (+2 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-snapchat-513-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-snapchat-513",
+      "programName": "Snapchat",
+      "programUrl": "https://hackerone.com/snapchat",
+      "summary": "Scope expanded (39 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-snapchat-513-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-snapchat-513",
+      "programName": "Snapchat",
+      "programUrl": "https://hackerone.com/snapchat",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-scope_added-hackerone-sony-16427-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-sony-16427",
+      "programName": "Sony",
+      "programUrl": "https://hackerone.com/sony",
+      "summary": "Scope expanded (1 new target)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-sony-16427-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-sony-16427",
+      "programName": "Sony",
+      "programUrl": "https://hackerone.com/sony",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-sorare-55988-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-sorare-55988",
+      "programName": "Sorare",
+      "programUrl": "https://hackerone.com/sorare",
+      "summary": "Asset types updated (+2 / -1)."
+    },
+    {
+      "id": "change-scope_added-hackerone-sorare-55988-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-sorare-55988",
+      "programName": "Sorare",
+      "programUrl": "https://hackerone.com/sorare",
+      "summary": "Scope expanded (3 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-sorare-55988-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-sorare-55988",
+      "programName": "Sorare",
+      "programUrl": "https://hackerone.com/sorare",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-asset_type_changed-hackerone-spotify-2010-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "asset_type_changed",
+      "platform": "HackerOne",
+      "programId": "hackerone-spotify-2010",
+      "programName": "Spotify",
+      "programUrl": "https://hackerone.com/spotify",
+      "summary": "Asset types updated (+3 / -0)."
+    },
+    {
+      "id": "change-scope_added-hackerone-spotify-2010-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "HackerOne",
+      "programId": "hackerone-spotify-2010",
+      "programName": "Spotify",
+      "programUrl": "https://hackerone.com/spotify",
+      "summary": "Scope expanded (41 new targets)."
+    },
+    {
+      "id": "change-scope_removed-hackerone-spotify-2010-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_removed",
+      "platform": "HackerOne",
+      "programId": "hackerone-spotify-2010",
+      "programName": "Spotify",
+      "programUrl": "https://hackerone.com/spotify",
+      "summary": "Scope reduced (1 target removed)."
+    },
+    {
+      "id": "change-scope_added-intigriti-storebrand-rd-2026-03-01T05:22:23Z",
+      "timestamp": "2026-03-01T05:22:23Z",
+      "type": "scope_added",
+      "platform": "Intigriti",
+      "programId": "intigriti-storebrand-rd",
+      "programName": "Storebrand Responsible Disclosure",
+      "programUrl": "https://app.intigriti.com/programs/spp-storebrand/storebrand-rd",
+      "summary": "Scope expanded (4 new targets)."
+    }
+  ],
+  "byType": [
+    {
+      "type": "scope_added",
+      "count": 107
+    },
+    {
+      "type": "scope_removed",
+      "count": 87
+    },
+    {
+      "type": "asset_type_changed",
+      "count": 64
+    },
+    {
+      "type": "new_program",
+      "count": 26
+    },
+    {
+      "type": "program_removed",
+      "count": 26
+    },
+    {
+      "type": "high_submission_volume",
+      "count": 6
+    },
+    {
+      "type": "bounty_changed",
+      "count": 4
+    }
+  ],
+  "byPlatform": [
+    {
+      "platform": "HackerOne",
+      "count": 256
+    },
+    {
+      "platform": "Independent",
+      "count": 24
+    },
+    {
+      "platform": "YesWeHack",
+      "count": 14
+    },
+    {
+      "platform": "Bugcrowd",
+      "count": 13
+    },
+    {
+      "platform": "Intigriti",
+      "count": 13
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+﻿{
+  "platform": "Bugcrowd",
+  "programs": [
+    {
+      "source_id": "bc-atlassian",
+      "name": "Atlassian",
+      "description": "Collaboration suite with cloud and source code targets.",
+      "url": "https://bugcrowd.com/atlassian",
+      "bounty": { "type": "cash", "min": 300, "max": 18000, "currency": "USD" },
+      "scope": {
+        "in": [
+          { "target": "*.atlassian.com", "type": "domain", "asset_type": "web" },
+          { "target": "developer.atlassian.com/rest", "type": "url", "asset_type": "api" },
+          { "target": "bitbucket.org/atlassian", "type": "source", "asset_type": "source code" },
+          { "target": "auth.atlassian.com/oauth", "type": "auth", "asset_type": "web", "auth_required": true }
+        ],
+        "out": [
+          { "target": "community.atlassian.com", "reason": "Community portals excluded" }
+        ]
+      },
+      "hq_country": "AU",
+      "metadata": { "regions": ["global"], "recent_scope_expansion": true },
+      "rules": [
+        "One issue per report",
+        "Include full request and response data"
+      ],
+      "exclusions": [
+        "Self-XSS",
+        "Best-practice findings without exploitability"
+      ],
+      "created_at": "2025-08-18T11:00:00Z",
+      "updated_at": "2026-01-20T18:00:00Z"
+    },
+    {
+      "source_id": "bc-razorpay",
+      "name": "Razorpay",
+      "description": "Payments infrastructure with API-heavy scope for merchants in India.",
+      "url": "https://bugcrowd.com/razorpay",
+      "bounty": { "type": "cash", "min": 200, "max": 15000, "currency": "USD" },
+      "scope": {
+        "in": [
+          { "target": "*.razorpay.com", "type": "domain", "asset_type": "web" },
+          { "target": "api.razorpay.com", "type": "api", "asset_type": "api" },
+          { "target": "dashboard.razorpay.in", "type": "domain", "asset_type": "web", "auth_required": true },
+          { "target": "cloud.razorpay.com", "type": "cloud", "asset_type": "cloud" }
+        ],
+        "out": [
+          { "target": "razorpay.docs", "reason": "Documentation and static help content" }
+        ]
+      },
+      "hq_country": "IN",
+      "metadata": { "regions": ["india"], "recent_scope_expansion": true },
+      "rules": [
+        "Do not impact live payment processing",
+        "Use sandbox/test mode wherever possible"
+      ],
+      "exclusions": [
+        "Rate-limit findings without bypass",
+        "Third-party hosted content"
+      ],
+      "created_at": "2026-01-26T10:45:00Z",
+      "updated_at": "2026-02-06T08:10:00Z"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+﻿{
+  "platform": "OpenBugBounty",
+  "programs": [
+    {
+      "source_id": "obb-nic-india",
+      "name": "NIC India Public Assets",
+      "description": "Government-focused public web assets disclosed on OpenBugBounty.",
+      "url": "https://www.openbugbounty.org/nic-india",
+      "bounty": { "type": "none", "min": 0, "max": 0, "currency": "USD" },
+      "scope": {
+        "in": [
+          { "target": "*.gov.in", "type": "domain", "asset_type": "web" },
+          { "target": "services.nic.in", "type": "domain", "asset_type": "web" },
+          { "target": "citizen.nic.in/auth/login", "type": "url", "asset_type": "web", "auth_required": true }
+        ],
+        "out": [
+          { "target": "internal.gov.in", "reason": "Internal-only systems excluded" }
+        ]
+      },
+      "hq_country": "IN",
+      "metadata": { "regions": ["india"], "recent_scope_expansion": false },
+      "rules": [
+        "Responsible disclosure only",
+        "No data extraction"
+      ],
+      "exclusions": [
+        "CSRF without impact",
+        "Informational headers"
+      ],
+      "created_at": "2025-05-01T05:00:00Z",
+      "updated_at": "2026-01-05T09:45:00Z"
+    },
+    {
+      "source_id": "obb-oss-commons",
+      "name": "OSS API Commons",
+      "description": "Community-maintained open-source API endpoints and developer portals.",
+      "url": "https://www.openbugbounty.org/oss-api-commons",
+      "bounty": { "type": "points", "min": 0, "max": 0, "currency": "POINTS" },
+      "scope": {
+        "in": [
+          { "target": "api.oss-commons.org", "type": "api", "asset_type": "api" },
+          { "target": "*.oss-commons.org", "type": "domain", "asset_type": "web" },
+          { "target": "github.com/oss-commons/core", "type": "source", "asset_type": "source code" }
+        ],
+        "out": [
+          { "target": "forum.oss-commons.org", "reason": "Community forum excluded" }
+        ]
+      },
+      "hq_country": "US",
+      "metadata": { "regions": ["global"], "recent_scope_expansion": true },
+      "rules": [
+        "Use responsible proof-of-concept techniques",
+        "Coordinate before publishing details"
+      ],
+      "exclusions": [
+        "Automated credential stuffing",
+        "Rate limiting findings without abuse path"
+      ],
+      "created_at": "2026-01-20T11:25:00Z",
+      "updated_at": "2026-02-03T06:30:00Z"
+    }
+  ]
+}

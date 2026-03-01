@@ -1,0 +1,107 @@
+{
+  "generatedAt": "2026-03-01T05:22:23Z",
+  "totals": {
+    "programs": 1412,
+    "indiaRelevant": 179,
+    "cashPrograms": 596,
+    "avgPriorityScore": 41.1
+  },
+  "byPlatform": [
+    {
+      "platform": "HackerOne",
+      "count": 450
+    },
+    {
+      "platform": "Bugcrowd",
+      "count": 429
+    },
+    {
+      "platform": "Independent",
+      "count": 300
+    },
+    {
+      "platform": "Intigriti",
+      "count": 149
+    },
+    {
+      "platform": "YesWeHack",
+      "count": 82
+    },
+    {
+      "platform": "OpenBugBounty",
+      "count": 2
+    }
+  ],
+  "byAssetType": [
+    {
+      "assetType": "Web",
+      "count": 1300
+    },
+    {
+      "assetType": "Mobile",
+      "count": 321
+    },
+    {
+      "assetType": "API",
+      "count": 312
+    },
+    {
+      "assetType": "Cloud",
+      "count": 160
+    },
+    {
+      "assetType": "Source code",
+      "count": 147
+    },
+    {
+      "assetType": "IoT",
+      "count": 24
+    }
+  ],
+  "byBountyType": [
+    {
+      "bountyType": "No bounty",
+      "count": 815
+    },
+    {
+      "bountyType": "Cash",
+      "count": 596
+    },
+    {
+      "bountyType": "Points",
+      "count": 1
+    }
+  ],
+  "topPriorityPrograms": [
+    {
+      "id": "hackerone-crypto-27759",
+      "name": "Crypto.com",
+      "platform": "HackerOne",
+      "priorityScore": 89
+    },
+    {
+      "id": "hackerone-shopify-1382",
+      "name": "Shopify",
+      "platform": "HackerOne",
+      "priorityScore": 89
+    },
+    {
+      "id": "intigriti-intel",
+      "name": "Intel\u00ae",
+      "platform": "Intigriti",
+      "priorityScore": 89
+    },
+    {
+      "id": "hackerone-metamask-56419",
+      "name": "MetaMask",
+      "platform": "HackerOne",
+      "priorityScore": 89
+    },
+    {
+      "id": "hackerone-robinhood-105208",
+      "name": "Robinhood Markets Bounty",
+      "platform": "HackerOne",
+      "priorityScore": 89
+    }
+  ]
+}

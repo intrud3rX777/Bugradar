@@ -1,0 +1,64 @@
+﻿{
+  "platform": "YesWeHack",
+  "programs": [
+    {
+      "source_id": "ywh-paytm",
+      "name": "Paytm",
+      "description": "Digital payments and wallet platform with web, API, and mobile assets.",
+      "url": "https://yeswehack.com/programs/paytm",
+      "bounty": { "type": "cash", "min": 120, "max": 10000, "currency": "USD" },
+      "scope": {
+        "in": [
+          { "target": "*.paytm.com", "type": "domain", "asset_type": "web" },
+          { "target": "securegw.paytm.in", "type": "domain", "asset_type": "web", "auth_required": true },
+          { "target": "api.paytm.com", "type": "api", "asset_type": "api" },
+          { "target": "paytm-mobile-app", "type": "mobile", "asset_type": "mobile" }
+        ],
+        "out": [
+          { "target": "blog.paytm.com", "reason": "Blog content excluded" }
+        ]
+      },
+      "hq_country": "IN",
+      "metadata": { "regions": ["india"], "recent_scope_expansion": true },
+      "rules": [
+        "Use test transactions only",
+        "No destructive testing"
+      ],
+      "exclusions": [
+        "Denial of service",
+        "Content spoofing"
+      ],
+      "created_at": "2026-01-28T07:30:00Z",
+      "updated_at": "2026-02-08T14:40:00Z"
+    },
+    {
+      "source_id": "ywh-ledger",
+      "name": "Ledger",
+      "description": "Hardware wallet ecosystem with cloud and firmware assets.",
+      "url": "https://yeswehack.com/programs/ledger",
+      "bounty": { "type": "swag", "min": 0, "max": 0, "currency": "USD" },
+      "scope": {
+        "in": [
+          { "target": "*.ledger.com", "type": "domain", "asset_type": "web" },
+          { "target": "api.ledger.com", "type": "api", "asset_type": "api" },
+          { "target": "ledger-hardware-bridge", "type": "iot", "asset_type": "iot" }
+        ],
+        "out": [
+          { "target": "shop.ledger.com", "reason": "Store checkout issues excluded" }
+        ]
+      },
+      "hq_country": "FR",
+      "metadata": { "regions": ["eu", "global"], "recent_scope_expansion": false },
+      "rules": [
+        "Coordinate firmware testing with support",
+        "No customer account takeover attempts"
+      ],
+      "exclusions": [
+        "Lost-device recovery flows",
+        "Physical tampering"
+      ],
+      "created_at": "2025-07-15T16:00:00Z",
+      "updated_at": "2025-11-21T13:10:00Z"
+    }
+  ]
+}
